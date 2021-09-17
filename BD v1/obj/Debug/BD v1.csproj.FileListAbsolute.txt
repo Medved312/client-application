@@ -1,0 +1,37 @@
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD v1.csprojAssemblyReference.cache
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD_v1.Properties.Resources.resources
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD v1.csproj.GenerateResource.cache
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD v1.csproj.CoreCompileInputs.cache
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\BD v1.exe.config
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\BD v1.exe
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\BD v1.pdb
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\Google.Protobuf.dll
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\MySql.Data.dll
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\Renci.SshNet.dll
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\Google.Protobuf.xml
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\MySql.Data.xml
+C:\Users\Arter\source\repos\BD v1\BD v1\bin\Debug\Renci.SshNet.xml
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD v1.csproj.CopyComplete
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD v1.exe
+C:\Users\Arter\source\repos\BD v1\BD v1\obj\Debug\BD v1.pdb
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.Menu.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\bin\Debug\MetroFramework.dll
+C:\Users\Arter\source\repos\BD V1\BD v1\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.Insert.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertGroup.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertStudent.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertTeacher.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.Auth.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertReg.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.Regis.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertSumma_stipendii.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertSubject.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertRaspisanie.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertPrisvaivanie_kontrol.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertFaculty.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertEvaluation.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertEmployment.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertDepartament.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertCouse.resources
+C:\Users\Arter\source\repos\BD V1\BD v1\obj\Debug\BD_v1.InsertAdmission_to_the_group.resources

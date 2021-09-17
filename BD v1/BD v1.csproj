@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{901F3B6A-788B-4949-B300-B09E99657DB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BD_v1</RootNamespace>
+    <AssemblyName>BD v1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.17.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.17\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth.Designer.cs">
+      <DependentUpon>Auth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert.Designer.cs">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertAdmission_to_the_group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertAdmission_to_the_group.Designer.cs">
+      <DependentUpon>InsertAdmission_to_the_group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertCouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertCouse.Designer.cs">
+      <DependentUpon>InsertCouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertDepartament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertDepartament.Designer.cs">
+      <DependentUpon>InsertDepartament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertEmployment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertEmployment.Designer.cs">
+      <DependentUpon>InsertEmployment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertEvaluation.Designer.cs">
+      <DependentUpon>InsertEvaluation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertFaculty.Designer.cs">
+      <DependentUpon>InsertFaculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForm_of_control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForm_of_control.Designer.cs">
+      <DependentUpon>InsertForm_of_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertGroup.Designer.cs">
+      <DependentUpon>InsertGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertRaspisanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertRaspisanie.Designer.cs">
+      <DependentUpon>InsertRaspisanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertReg.Designer.cs">
+      <DependentUpon>InsertReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertStudent.Designer.cs">
+      <DependentUpon>InsertStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertSubject.Designer.cs">
+      <DependentUpon>InsertSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertSumma_stipendii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertSumma_stipendii.Designer.cs">
+      <DependentUpon>InsertSumma_stipendii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertTeacher.Designer.cs">
+      <DependentUpon>InsertTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regis.Designer.cs">
+      <DependentUpon>Regis.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Auth.resx">
+      <DependentUpon>Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert.resx">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertAdmission_to_the_group.resx">
+      <DependentUpon>InsertAdmission_to_the_group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertCouse.resx">
+      <DependentUpon>InsertCouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertDepartament.resx">
+      <DependentUpon>InsertDepartament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertEmployment.resx">
+      <DependentUpon>InsertEmployment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertEvaluation.resx">
+      <DependentUpon>InsertEvaluation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertFaculty.resx">
+      <DependentUpon>InsertFaculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForm_of_control.resx">
+      <DependentUpon>InsertForm_of_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertGroup.resx">
+      <DependentUpon>InsertGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertRaspisanie.resx">
+      <DependentUpon>InsertRaspisanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertReg.resx">
+      <DependentUpon>InsertReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertStudent.resx">
+      <DependentUpon>InsertStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertSubject.resx">
+      <DependentUpon>InsertSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertSumma_stipendii.resx">
+      <DependentUpon>InsertSumma_stipendii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertTeacher.resx">
+      <DependentUpon>InsertTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Regis.resx">
+      <DependentUpon>Regis.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MetroFramework.txt" />
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
